@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Telescreener</title>
+
+    <link href="https://media.discordapp.net/attachments/772064957793435678/818668497424482304/65000.png?width=447&height=447" rel="shortcut icon">
+    <link href="/styles/index.css" rel="stylesheet">
+    <link href="https://codesalvageon.github.io/magichat/styles/index.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  </head>
+  <body oncontextmenu="return false;">
+    <br/>
+    <h1 class="center">The Anti-iReady Reaction's Telescreener</h1>
+    <br/>
+    <div class="center glass" id="main">
+      <h3 class="error" id="warning"><img src="https://media.discordapp.net/attachments/772064957793435678/818675449466322954/image-removebg-preview.png" width="22.5" height="22.5" style="vertical-align:middle"/> RECORDING</h3>
+    </div>
+    <center>
+      <img src="/images/flag.jpg" class="rounded glass center" id="flag-1"/>
+    </center>
+    <center> 
+      <div class="rounded glass center" id="glass-1"> 
+        <br/>
+        <br/>
+        <button class="rounded button text-input paragraph boxed" id="continue">Continue to comment writing</button>
+      </div>
+    </center>
+    <center>
+      <div class="rounded glass center" id="glass-2">
+        <form id="normie-form">
+          <br/>
+          <br/>
+          <h3>DISPLAY NAME: <input type="text" id="display_name" class="text-input" maxlength="50" required/></h3> 
+          <h3>EMAIL ADDRESS: <input type="email" id="email" class="text-input"/></h3>
+          <br/>
+          <h3>COMMENT: </h3>
+          <br/>
+          <textarea id="comment" class="text-input" maxlength="200" required></textarea>
+          <br/>
+          <button class="paragraph rounded glass button">SUBMIT</button>
+        </form> 
+      </div>
+    </center>
+    <center>
+      <div class="rounded glass center" id="glass-3">
+        <br/>
+        <br/>
+        <form id="cmdr-form">
+          <h3>COMMODORE KEY: <input type="text" id="cmdr_key" class="text-input" maxlength="50" required/></h3>
+          <button class="paragraph glass button">ENTER KEY</button>
+        </form> 
+      </div>
+    </center>
+    <center> 
+      <div class="rounded glass center" id="glass-4"> 
+        <form id="commodore-form">
+          <br/>
+          <br/>
+          <h3>DISPLAY NAME: <input id="cmdr_display_name" type="text" class="text-input" maxlength="50" required/></h3>
+          <br/>
+          <h3>COMMENT: </h3>
+          <br/>
+          <textarea id="cmdr_comment"   class="text-input" maxlength="200" required></textarea>
+          <br/>
+          <button class="paragraph rounded glass button">SUBMIT</button>
+        </form>
+      </div>
+    </center>
+    <center> 
+      <div class="rounded glass center" id="glass-5">
+        <iframe src="/static/realtime.html" width="800" height="600" frameBorder="0"></iframe>
+      </div>
+    </center>
+    <div class="center glass" id="bottom">
+      <h3 class="error" id="btm-warning"><img src="https://media.discordapp.net/attachments/772064957793435678/818675449466322954/image-removebg-preview.png" width="22.5" height="22.5" style="vertical-align:middle"/> Click on the image to write your comment.</h3>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

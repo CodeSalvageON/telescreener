@@ -1,0 +1,55 @@
+body {
+  color: antiquewhite;
+  background-color: black;
+  font-family: 'Inconsolata', monospace;
+}
+
+button {
+  font-family: 'Inconsolata', monospace;
+}
+
+input {
+  font-family: 'Inconsolata', monospace;
+}
+
+#main {
+  width: 1000px;
+  border-radius: 8px;
+}
+
+#bottom {
+  width: 1000px;
+  border-radius: 8px;
+}
+
+#placeholder {
+  width: 800px;
+  height: 600px;
+  background-size: cover;
+  background-image: url("https://media.discordapp.net/attachments/772064957793435678/818677869865336842/fuckiready.jpg");
+}
+
+#glass-1 {
+  width: 800px;
+  height: 600px;
+}
+
+#glass-2 {
+  width: 800px;
+  height: 600px;
+}
+
+#glass-3 {
+  width: 800px;
+  height: 600px;
+}
+
+#glass-4 {
+  width: 800px;
+  height: 600px;
+}
+
+#glass-5 {
+  width: 800px;
+  height: 600px;
+}
